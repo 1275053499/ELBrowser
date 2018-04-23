@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1858277B208D7EC6008D0451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858277A208D7EC6008D0451 /* AppDelegate.m */; };
+		1858277E208D7EC6008D0451 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858277D208D7EC6008D0451 /* ViewController.m */; };
+		18582781208D7EC6008D0451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1858277F208D7EC6008D0451 /* Main.storyboard */; };
+		18582783208D7EC7008D0451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18582782208D7EC7008D0451 /* Assets.xcassets */; };
+		18582786208D7EC7008D0451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18582784208D7EC7008D0451 /* LaunchScreen.storyboard */; };
+		18582789208D7EC7008D0451 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18582788208D7EC7008D0451 /* main.m */; };
+		18582796208D83DA008D0451 /* ElPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18582791208D83DA008D0451 /* ElPhotoBrowserView.m */; };
+		18582797208D83DA008D0451 /* ElBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18582794208D83DA008D0451 /* ElBrowser.m */; };
+		18582798208D83DA008D0451 /* ElPhotoBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18582795208D83DA008D0451 /* ElPhotoBrowserCollectionViewCell.m */; };
+		9364ACBA77126B4A22431E1D /* libPods-ELBroswer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F3235596F6EDF9E18D6CE1 /* libPods-ELBroswer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18582776208D7EC6008D0451 /* ELBroswer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELBroswer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18582779208D7EC6008D0451 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1858277A208D7EC6008D0451 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1858277C208D7EC6008D0451 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1858277D208D7EC6008D0451 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18582780208D7EC6008D0451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18582782208D7EC7008D0451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18582785208D7EC7008D0451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18582787208D7EC7008D0451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18582788208D7EC7008D0451 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18582790208D83DA008D0451 /* ElBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElBrowser.h; sourceTree = "<group>"; };
+		18582791208D83DA008D0451 /* ElPhotoBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElPhotoBrowserView.m; sourceTree = "<group>"; };
+		18582792208D83DA008D0451 /* ElPhotoBrowserCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElPhotoBrowserCollectionViewCell.h; sourceTree = "<group>"; };
+		18582793208D83DA008D0451 /* ElPhotoBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElPhotoBrowserView.h; sourceTree = "<group>"; };
+		18582794208D83DA008D0451 /* ElBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElBrowser.m; sourceTree = "<group>"; };
+		18582795208D83DA008D0451 /* ElPhotoBrowserCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElPhotoBrowserCollectionViewCell.m; sourceTree = "<group>"; };
+		4F109FE5DBD0EE1E713E3071 /* Pods-ELBroswer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELBroswer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELBroswer/Pods-ELBroswer.debug.xcconfig"; sourceTree = "<group>"; };
+		A1F3235596F6EDF9E18D6CE1 /* libPods-ELBroswer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELBroswer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D937068842E28555A82EDB60 /* Pods-ELBroswer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELBroswer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELBroswer/Pods-ELBroswer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18582773208D7EC6008D0451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9364ACBA77126B4A22431E1D /* libPods-ELBroswer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1858276D208D7EC6008D0451 = {
+			isa = PBXGroup;
+			children = (
+				18582778208D7EC6008D0451 /* ELBroswer */,
+				18582777208D7EC6008D0451 /* Products */,
+				B46D630B6EE7567E2391FFE1 /* Pods */,
+				D9327379B5F38E5B6D7276B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18582777208D7EC6008D0451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18582776208D7EC6008D0451 /* ELBroswer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18582778208D7EC6008D0451 /* ELBroswer */ = {
+			isa = PBXGroup;
+			children = (
+				1858278F208D83DA008D0451 /* Classes */,
+				18582779208D7EC6008D0451 /* AppDelegate.h */,
+				1858277A208D7EC6008D0451 /* AppDelegate.m */,
+				1858277C208D7EC6008D0451 /* ViewController.h */,
+				1858277D208D7EC6008D0451 /* ViewController.m */,
+				1858277F208D7EC6008D0451 /* Main.storyboard */,
+				18582782208D7EC7008D0451 /* Assets.xcassets */,
+				18582784208D7EC7008D0451 /* LaunchScreen.storyboard */,
+				18582787208D7EC7008D0451 /* Info.plist */,
+				18582788208D7EC7008D0451 /* main.m */,
+			);
+			path = ELBroswer;
+			sourceTree = "<group>";
+		};
+		1858278F208D83DA008D0451 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18582790208D83DA008D0451 /* ElBrowser.h */,
+				18582794208D83DA008D0451 /* ElBrowser.m */,
+				18582793208D83DA008D0451 /* ElPhotoBrowserView.h */,
+				18582791208D83DA008D0451 /* ElPhotoBrowserView.m */,
+				18582792208D83DA008D0451 /* ElPhotoBrowserCollectionViewCell.h */,
+				18582795208D83DA008D0451 /* ElPhotoBrowserCollectionViewCell.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B46D630B6EE7567E2391FFE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F109FE5DBD0EE1E713E3071 /* Pods-ELBroswer.debug.xcconfig */,
+				D937068842E28555A82EDB60 /* Pods-ELBroswer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9327379B5F38E5B6D7276B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1F3235596F6EDF9E18D6CE1 /* libPods-ELBroswer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18582775208D7EC6008D0451 /* ELBroswer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1858278C208D7EC7008D0451 /* Build configuration list for PBXNativeTarget "ELBroswer" */;
+			buildPhases = (
+				DAB0E75F62B8FB46A87DE869 /* [CP] Check Pods Manifest.lock */,
+				18582772208D7EC6008D0451 /* Sources */,
+				18582773208D7EC6008D0451 /* Frameworks */,
+				18582774208D7EC6008D0451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELBroswer;
+			productName = ELBroswer;
+			productReference = 18582776208D7EC6008D0451 /* ELBroswer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1858276E208D7EC6008D0451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = getElementByYou;
+				TargetAttributes = {
+					18582775208D7EC6008D0451 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = CY588ZPD6D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18582771208D7EC6008D0451 /* Build configuration list for PBXProject "ELBroswer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1858276D208D7EC6008D0451;
+			productRefGroup = 18582777208D7EC6008D0451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18582775208D7EC6008D0451 /* ELBroswer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18582774208D7EC6008D0451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18582786208D7EC7008D0451 /* LaunchScreen.storyboard in Resources */,
+				18582783208D7EC7008D0451 /* Assets.xcassets in Resources */,
+				18582781208D7EC6008D0451 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAB0E75F62B8FB46A87DE869 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ELBroswer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18582772208D7EC6008D0451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1858277E208D7EC6008D0451 /* ViewController.m in Sources */,
+				18582796208D83DA008D0451 /* ElPhotoBrowserView.m in Sources */,
+				18582789208D7EC7008D0451 /* main.m in Sources */,
+				18582798208D83DA008D0451 /* ElPhotoBrowserCollectionViewCell.m in Sources */,
+				1858277B208D7EC6008D0451 /* AppDelegate.m in Sources */,
+				18582797208D83DA008D0451 /* ElBrowser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1858277F208D7EC6008D0451 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18582780208D7EC6008D0451 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18582784208D7EC7008D0451 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18582785208D7EC7008D0451 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1858278A208D7EC7008D0451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1858278B208D7EC7008D0451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1858278D208D7EC7008D0451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F109FE5DBD0EE1E713E3071 /* Pods-ELBroswer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CY588ZPD6D;
+				INFOPLIST_FILE = ELBroswer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ELBroswer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1858278E208D7EC7008D0451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D937068842E28555A82EDB60 /* Pods-ELBroswer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CY588ZPD6D;
+				INFOPLIST_FILE = ELBroswer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ELBroswer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18582771208D7EC6008D0451 /* Build configuration list for PBXProject "ELBroswer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1858278A208D7EC7008D0451 /* Debug */,
+				1858278B208D7EC7008D0451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1858278C208D7EC7008D0451 /* Build configuration list for PBXNativeTarget "ELBroswer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1858278D208D7EC7008D0451 /* Debug */,
+				1858278E208D7EC7008D0451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1858276E208D7EC6008D0451 /* Project object */;
+}

@@ -1,0 +1,8 @@
+
+target 'ELBroswer' do
+
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+
+end
